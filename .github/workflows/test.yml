@@ -22,7 +22,7 @@ jobs:
       - run: npm ci
         env:
           CI: true
-      - run: npm build
+      - run: npm run build
         env:
           CI: true
       - run: npm test
